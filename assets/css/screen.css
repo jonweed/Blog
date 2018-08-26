@@ -19,13 +19,16 @@
 /* 4. Site Header
 /* ---------------------------------------------------------- */
 
-.site-header {
-    /* color: inherit; */
+.gh-head {
     background: var(--blue);
 }
 
-.site-header:before, .site-header:after {
-    display: none;
+
+/* 5. Site Navigation
+/* ---------------------------------------------------------- */
+
+.gh-navbar-item {
+    color: #fff;
 }
 
 
@@ -101,4 +104,12 @@
     margin-bottom:1rem;
     font-weight:500;
 
+}
+
+
+/* 11. Site Footer
+/* ---------------------------------------------------------- */
+
+.site-footer {
+    background: var(--blue);
 }
