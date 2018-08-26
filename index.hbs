@@ -29,7 +29,7 @@
                         {{> "post-card"}}
                     {{/foreach}}
                     {{/get}}
-                    <!-- <aside>
+                    <aside>
                         <a class="highlight-feed-ad highlight-feed-primary-widget" href="https://ghost.org/pricing/">
                             <img src="{{asset "img/ghostpro.svg"}}" alt="Ghost(Pro)">
                             <p>Spend less time on your server, more time on your site</p>
@@ -67,7 +67,7 @@
                         </a>
                         {{/foreach}}
                         {{/get}}
-                    </aside> -->
+                    </aside>
                 </div>
                 {{#get "posts" filter="featured:true" include="authors,tags" limit="4"}}
                 <div class="post-feed highlight-feed-secondary">
@@ -103,67 +103,6 @@
             </div>
         </div>
         {{/get}}
-
-        <!-- {{#get "posts" filter="tag:tutorials+featured:false" include="authors,tags" limit="3"}}
-        <div class="site-section">
-            <header class="site-section-header">
-                <h2 class="site-section-title">Tutorials</h2>
-                <a class="site-section-morelink" href="{{@blog.url}}/tag/tutorials/">See more {{> "icons/arrow-right-small"}}</a>
-            </header>
-            <div class="post-feed">
-                {{#foreach posts}}
-                    {{> "post-card"}}
-                {{/foreach}}
-            </div>
-        </div>
-        {{/get}}
-
-        {{#get "posts" filter="tag:careers" include="authors,tags" limit="3"  as |careers|}}
-        {{#if careers}}
-        <div class="site-section">
-            <header class="site-section-header">
-                <h2 class="site-section-title">Careers at Ghost</h2>
-                <a class="site-section-morelink" href="{{@blog.url}}/tag/careers/">See more {{> "icons/arrow-right-small"}}</a>
-            </header>
-            <div class="post-feed">
-
-                {{#foreach posts}}
-                    {{> "post-card"}}
-                {{/foreach}}
-
-            </div>
-        </div>
-        {{/if}}
-        {{/get}}
-
-        {{#get "posts" filter="tag:inside-ghost+featured:false" include="authors,tags" limit="3"}}
-        <div class="site-section">
-            <header class="site-section-header">
-                <h2 class="site-section-title">Behind the Scenes</h2>
-                <a class="site-section-morelink" href="{{@blog.url}}/tag/inside-ghost/">See more {{> "icons/arrow-right-small"}}</a>
-            </header>
-            <div class="post-feed">
-                {{#foreach posts}}
-                    {{> "post-card"}}
-                {{/foreach}}
-            </div>
-        </div>
-        {{/get}}
-
-        {{#get "posts" filter="tag:writing+featured:false" include="authors,tags" limit="3"}}
-        <div class="site-section">
-            <header class="site-section-header">
-                <h2 class="site-section-title">Writing Tips</h2>
-                <a class="site-section-morelink" href="{{@blog.url}}/tag/writing/">See more {{> "icons/arrow-right-small"}}</a>
-            </header>
-            <div class="post-feed">
-                {{#foreach posts}}
-                    {{> "post-card"}}
-                {{/foreach}}
-            </div>
-        </div>
-        {{/get}} -->
-
 
         {{!-- <div class="post-feed">
             {{#foreach posts}}
