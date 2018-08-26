@@ -5,7 +5,18 @@
 @import "screen-blog.css";
 @import "fonts.css";
 
+/* 1.1. Variables
+/* ---------------------------------------------------------- */
 
+:root {
+    --color-primary: #0086c9;
+    --color-text: #2a2a2a;
+    --global-border-radius: 2px;
+}
+
+
+/* 7. Single Post
+/* ---------------------------------------------------------- */
 
 .post-full-meta {
     align-items: center;
@@ -31,6 +42,7 @@
 .post-full-meta .author-profile-name a {
     color: inherit;
 }
+
 .post-full-meta .author-profile-image, .post-full-meta .avatar-wrapper {
     margin-right: 14px;
     width: 32px;
@@ -44,7 +56,7 @@
 
 .post-full-header-tag {
     display: inline-block;
-    color: var(--color-primary);
+    /* color: var(--color-primary); */
     font-size: 1.3rem;
     line-height: 1.15em;
     letter-spacing: .5px;
