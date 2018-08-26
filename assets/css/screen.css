@@ -31,6 +31,18 @@
     color: #fff;
 }
 
+.gh-btn {
+    color: #fff;
+    fill: #fff;
+}
+
+.gh-navbar-btn {
+    color: #fff;
+}
+
+.gh-navbar-btn:hover {
+    color:#fff;
+}
 
 /* 6. Post Feed
 /* ---------------------------------------------------------- */
