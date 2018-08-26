@@ -13,16 +13,16 @@
         <article class="post-full {{post_class}} {{#has tag='#noimg'}}no-image{{else}}{{#unless feature_image}}no-image{{/unless}}{{/has}}">
 
             <header class="post-full-header">
-                <div class="post-full-meta">
+                <!-- <div class="post-full-meta">
                     <time class="post-full-meta-date" datetime="{{date format="YYYY-MM-DD"}}">{{date format="D MMMM YYYY"}}</time>
                     {{#primary_tag}}
                         <span class="date-divider">/</span> <a href="{{url}}">{{name}}</a>
                     {{/primary_tag}}
-                </div>
+                </div> -->
                 <h1 class="post-full-title js-foating-header-trigger js-no-widows">{{title}}</h1>
 
 
-                <!-- <section class="post-full-meta">
+                <section class="post-full-meta">
                   {{#primary_author}}
                       {{#if profile_image}}
                       <img class="author-profile-image" src="{{profile_image}}" alt="{{name}}" />
@@ -37,7 +37,7 @@
                           <span class="date-divider">/</span> <a class="post-full-header-tag" href="{{url}}">{{name}}</a>
                       {{/primary_tag}}
                   </div>
-                </section> -->
+                </section>
 
 
 
