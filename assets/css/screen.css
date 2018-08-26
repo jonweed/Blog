@@ -9,9 +9,23 @@
 /* ---------------------------------------------------------- */
 
 :root {
-    --color-primary: #0086c9;
+    /* --color-primary: #0086c9; */
+    --color-blue: #26a8ed;
     --color-text: #2a2a2a;
     --global-border-radius: 2px;
+}
+
+
+/* 4. Site Header
+/* ---------------------------------------------------------- */
+
+.site-header {
+    /* color: inherit; */
+    background: var(--blue);
+}
+
+.site-header:before, .site-header:after {
+    display: none;
 }
 
 
