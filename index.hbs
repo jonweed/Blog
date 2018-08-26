@@ -29,7 +29,7 @@
                         {{> "post-card"}}
                     {{/foreach}}
                     {{/get}}
-                    <aside>
+                    <!-- <aside>
                         <a class="highlight-feed-ad highlight-feed-primary-widget" href="https://ghost.org/pricing/">
                             <img src="{{asset "img/ghostpro.svg"}}" alt="Ghost(Pro)">
                             <p>Spend less time on your server, more time on your site</p>
@@ -67,9 +67,9 @@
                         </a>
                         {{/foreach}}
                         {{/get}}
-                    </aside>
+                    </aside> -->
                 </div>
-                {{#get "posts" filter="featured:true" include="authors,tags" limit="4"}}
+                {{#get "posts" filter="featured:false" include="authors,tags" limit="4"}}
                 <div class="post-feed highlight-feed-secondary">
                     {{#foreach posts}}
                         {{> "post-card"}}
