@@ -23,6 +23,10 @@
     background: var(--blue);
 }
 
+.gh-nav-logo .ghost-svg {
+    fill: currentColor;
+    color: #fff;
+}
 
 /* 5. Site Navigation
 /* ---------------------------------------------------------- */
