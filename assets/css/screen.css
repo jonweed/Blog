@@ -18,6 +18,10 @@
 /* 7. Single Post
 /* ---------------------------------------------------------- */
 
+.post-full-header {
+    text-align: left;
+}
+
 .post-full-meta {
     align-items: center;
     justify-content: flex-start;
@@ -47,10 +51,10 @@
     margin-right: 14px;
     width: 32px;
     height: 32px;
+    margin-bottom:1rem;
 }
 
- .post-full-meta .avatar-wrapper,
- .post-full-meta .date-divider {
+.post-full-meta .date-divider {
     margin-bottom:1rem;
 }
 
