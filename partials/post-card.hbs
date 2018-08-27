@@ -27,9 +27,9 @@
     <article class="post-card {{post_class}}{{#unless feature_image}} no-image{{/unless}}">
 
         {{#if feature_image}}
-            <a class="post-card-image-link" href="{{url}}">
-                <div class="post-card-image" style="background-image: url({{feature_image}})"></div>
-            </a>
+        <div class="post-card-image">
+            <a class="c-test post-card-image-link" href="{{url}}" style="background-image: url({{feature_image}})"></a>
+        </div>
         {{/if}}
 
         <div class="post-card-content">
