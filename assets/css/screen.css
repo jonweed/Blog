@@ -103,6 +103,10 @@ body {
     transform: none;
 } */
 
+.post-card {
+    box-shadow: none;
+}
+
 .post-feed.highlight-feed-primary  {
     margin-bottom: -20px;
 }
