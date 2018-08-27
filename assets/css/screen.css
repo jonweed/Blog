@@ -19,20 +19,20 @@
 /* 4. Site Header
 /* ---------------------------------------------------------- */
 
-.gh-head {
+/* .gh-head {
     background: var(--blue);
-}
+} */
 
 .gh-nav-logo .ghost-svg {
     fill: currentColor;
-    color: #fff;
+    /* color: #fff; */
     height:24px;
 }
 
 /* 5. Site Navigation
 /* ---------------------------------------------------------- */
 
-.gh-navbar-item {
+/* .gh-navbar-item {
     color: #fff;
 }
 
@@ -47,7 +47,7 @@
 
 .gh-navbar-btn:hover {
     color:#fff;
-}
+} */
 
 /* 6. Post Feed
 /* ---------------------------------------------------------- */
@@ -133,5 +133,5 @@
 /* ---------------------------------------------------------- */
 
 .site-footer {
-    background: var(--blue);
+    /* background: var(--blue); */
 }
