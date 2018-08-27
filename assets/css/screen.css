@@ -58,6 +58,11 @@
     transform: none;
 }
 
+.post-feed.highlight-feed-primary  {
+    margin-bottom: 0;
+}
+
+
 @media (min-width: 795px) {
     .post-card {
         box-shadow: none;
