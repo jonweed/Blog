@@ -35,7 +35,7 @@ body {
 
 }
 
-.c-test:hover {
+.post-card:hover .c-test {
     transform: scale(1.01);
 }
 
@@ -48,9 +48,10 @@ body {
     content: '';
     background-color: #000;
     opacity: 0;
+    display:block;
 }
 
-.c-test:hover::before {
+.post-card:hover .c-test::before {
     opacity: 0.2;
 }
 
