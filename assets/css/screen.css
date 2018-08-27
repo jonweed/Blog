@@ -16,6 +16,15 @@
 }
 
 
+/* 1.2. Body
+/* ---------------------------------------------------------- */
+
+body {
+    color: var(--color-text);
+    /* font-family: Rubik,'-apple-system',BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,'Open Sans','Helvetica Neue','sans-serif'; */
+}
+
+
 /* 4. Site Header
 /* ---------------------------------------------------------- */
 
@@ -25,7 +34,7 @@
 
 .gh-nav-logo .ghost-svg {
     fill: currentColor;
-    /* color: #fff; */
+    color: var(--color-text);
     height:24px;
 }
 
