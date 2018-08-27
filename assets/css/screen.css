@@ -74,8 +74,14 @@ body {
     height:24px;
 }
 
+
 /* 5. Site Navigation
 /* ---------------------------------------------------------- */
+
+.gh-nav-logo > a {
+    color: #738a94;
+    text-decoration: none;
+}
 
 /* .gh-navbar-item {
     color: #fff;
