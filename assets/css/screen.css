@@ -81,6 +81,8 @@ body {
 .gh-nav-logo > a {
     color: #738a94;
     text-decoration: none;
+    font-size:1.3rem;
+    padding-right:4vw;
 }
 
 /* .gh-navbar-item {
