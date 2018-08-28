@@ -77,7 +77,7 @@ body {
 
 /* 5. Site Navigation
 /* ---------------------------------------------------------- */
-
+.gh-mobilenavbar .gh-nav-logo > a,
 .gh-nav-logo > a {
     color: #738a94;
     text-decoration: none;
