@@ -146,14 +146,14 @@ body {
 
 .post-full-header-date {
     display:inline-block;
-    font-weight: 300;
+    font-weight: 400;
     color: inherit;
     font-size:1.3rem;
     text-transform: uppercase;
     margin-bottom: 1rem;
 }
 
-.post-full-meta .author-profile-name {
+/* .post-full-meta .author-profile-name {
     margin: 0 auto 1rem 0;
     font-size: 1.4rem;
 }
@@ -167,7 +167,7 @@ body {
     width: 32px;
     height: 32px;
     margin-bottom:1rem;
-}
+} */
 
 .post-full-meta .date-divider {
     margin-bottom:1rem;
