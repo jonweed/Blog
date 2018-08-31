@@ -208,6 +208,15 @@ body {
     border-radius: var(--global-border-radius);
 }
 
+
+/* 7.1. Subscribe Form
+/* ---------------------------------------------------------- */
+
+.subscribe-form {
+    border-radius: var(--global-border-radius);
+}
+
+
 /* 8. Author Template
 /* ---------------------------------------------------------- */
 
