@@ -134,6 +134,10 @@ body {
     transform: translate3D(0,-1px,0) scale(1.02);
 }
 
+.post-card-image-link {
+    border-radius: var(--global-border-radius) var(--global-border-radius) 0 0;
+}
+
 @media (min-width: 795px) {
     .post-card {
         /* box-shadow: none; */
