@@ -74,6 +74,12 @@ body {
     height:24px;
 }
 
+.site-header-content {
+    justify-content: left;
+    align-items: flex-start;
+    text-align: left;
+}
+
 
 /* 5. Site Navigation
 /* ---------------------------------------------------------- */
@@ -182,6 +188,14 @@ body {
     margin-bottom:1rem;
     font-weight:500;
 
+}
+
+
+/* 8. Author Template
+/* ---------------------------------------------------------- */
+
+.author-template .site-header-content .author-meta {
+    justify-content: left;
 }
 
 
