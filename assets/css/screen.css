@@ -203,6 +203,10 @@ body {
 
 }
 
+.post-full-content code,
+.post-full-content pre {
+    border-radius: var(--global-border-radius);
+}
 
 /* 8. Author Template
 /* ---------------------------------------------------------- */
