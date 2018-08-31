@@ -114,16 +114,20 @@ body {
 /* 6. Post Feed
 /* ---------------------------------------------------------- */
 
-/* .post-card:hover {
-    box-shadow: none;
-    transition: none;
-    transform: none;
-} */
-
 .post-feed.highlight-feed-primary  {
     margin-bottom: -20px;
 }
 
+.read-next-card {
+    box-shadow: rgba(39,44,49,0.06) 8px 14px 38px, rgba(39, 44, 49, 0.03) 1px 3px 8px;
+    transition: all 0.5s ease;
+}
+
+.read-next-card:hover {
+    box-shadow: 8px 28px 50px rgba(39,44,49,.07), 1px 6px 12px rgba(39,44,49,.04);
+    transition: all .4s ease;
+    transform: translate3D(0,-1px,0) scale(1.02);
+}
 
 @media (min-width: 795px) {
     .post-card {
