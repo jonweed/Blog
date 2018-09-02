@@ -120,6 +120,8 @@ body {
 
 .post-card {
     padding: 16px;
+    margin:0 10px 40px;
+    box-shadow:none;
 }
 
 .post-card,
@@ -128,7 +130,7 @@ body {
 }
 
 .read-next-card {
-    box-shadow: rgba(39,44,49,0.06) 8px 14px 38px, rgba(39, 44, 49, 0.03) 1px 3px 8px;
+    /* box-shadow: rgba(39,44,49,0.06) 8px 14px 38px, rgba(39, 44, 49, 0.03) 1px 3px 8px; */
     transition: all 0.5s ease;
 }
 
@@ -143,8 +145,8 @@ body {
 }
 
 
+transition: all .5s ease;
 .post-card-image {
-    transition: all .5s ease;
 }
 .post-card-image:hover {
     transform: translate3D(0,-1px,0) scale(1.02);
