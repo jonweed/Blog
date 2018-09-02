@@ -118,6 +118,10 @@ body {
     margin-bottom: -20px;
 }
 
+.post-card {
+    padding: 16px;
+}
+
 .post-card,
 .read-next-card {
     border-radius:var(--global-border-radius)    ;
