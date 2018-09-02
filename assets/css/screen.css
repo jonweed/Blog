@@ -149,7 +149,7 @@ body {
 .post-card-image {
     transition: all .5s ease;
 }
-.post-card-image:hover {
+.post-card:hover .post-card-image {
     transform: translate3D(0,-1px,0) scale(1.02);
 }
 
