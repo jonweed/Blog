@@ -159,6 +159,18 @@ body {
     text-decoration-color: red;
 }
 
+.highlight-feed-secondary .post-card-content-link {
+    padding:20px 0px 5px;
+}
+
+.post-card-meta {
+    padding:0;
+}
+
+.post-card-content-link {
+    padding: 20px 0 0;
+}
+
 @media (min-width: 795px) {
     .post-card {
         /* box-shadow: none; */
