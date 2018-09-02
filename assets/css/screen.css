@@ -152,26 +152,24 @@ body {
     /* transform: translate3D(0,-1px,0) scale(1.02); */
 }
 
-.post-card-title {
-    text-decoration: underline;
-    text-decoration-color: #fff;
-    transition: all .5s ease;
-}
-.post-card:hover .post-card-title {
-    text-decoration: underline;
-    text-decoration-color: var(--blue);
-}
-
-.highlight-feed-secondary .post-card-content-link {
-    padding:20px 0px 5px;
-}
-
 .post-card-meta {
     padding:0;
 }
 
 .post-card-content-link {
     padding: 20px 0 0;
+}
+
+.post-card-title {
+    display:inline-block;
+    border-bottom:2px solid #fff;
+    transition:0.5s ease all;
+
+}
+
+.post-card:hover .post-card-title {
+    transition: 0.4s ease all;
+    border-bottom:2px solid var(--blue);
 }
 
 @media (min-width: 795px) {
