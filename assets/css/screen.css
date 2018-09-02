@@ -153,6 +153,12 @@ body {
     transform: translate3D(0,-1px,0) scale(1.02);
 }
 
+.post-card:hover .post-card-title {
+    text-decoration: underline;
+    text-decoration-color: currentcolor;
+    text-decoration-color: red;
+}
+
 @media (min-width: 795px) {
     .post-card {
         /* box-shadow: none; */
