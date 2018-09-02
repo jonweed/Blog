@@ -153,6 +153,9 @@ body {
     /* transform: translate3D(0,-1px,0) scale(1.02); */
 }
 
+.post-card-title {
+    transition: all .5s ease;
+}
 .post-card:hover .post-card-title {
     text-decoration: underline;
     text-decoration-color: var(--blue);
